@@ -1,0 +1,28 @@
+@keyframes slideToRight {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slideToTop {
+  from {
+    transform: translateY(200px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.company-description h1 {
+  animation: slideToRight;
+  animation-duration: 1s;
+}
+.company-description p {
+  animation: slideToTop;
+  animation-duration: 0.7s;
+}
+spline-viewer {
+  animation: slideToRight;
+  animation-duration: 2s;
+}

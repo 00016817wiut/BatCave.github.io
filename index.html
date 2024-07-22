@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bat Cave - Your one-stop shop</title>
+    <link rel="stylesheet" href="/assets/styles/styles.css" />
+    <link rel="stylesheet" href="/assets/styles/animations.css" />
+    <link rel="icon" href="assets/images/bat-red.png" />
+    <link rel="stylesheet" href="/assets/styles/prelpoad_screen.css" />
+
+    <!-- BACKGROUND MODEL -->
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.8.1/build/spline-viewer.js"
+    ></script>
+    <!-- BACKGROUND MODEL -->
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.9.2/build/spline-viewer.js"
+    ></script>
+
+    <!-- FONT - ANTON SC -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="preloader">
+      <img src="/assets/images/bat.png" class="logo" />
+    </div>
+    <nav id="navigation">
+      <div class="nav-container">
+        <div>
+          <a href="index.html" class="logo">
+            <img src="/assets/images/bat-red.png" class="logo-img" />Bat Cave</a
+          >
+        </div>
+        <div>
+          <a href="#" class="active-nav">Home</a>
+          <a href="#">Products</a>
+          <a href="#">About Us</a>
+          <a href="#">Contacts</a>
+        </div>
+      </div>
+    </nav>
+    <section id="background-vid">
+      <div class="spline-container">
+        <spline-viewer
+          url="https://prod.spline.design/vb3kafnu34QpiddE/scene.splinecode"
+        ></spline-viewer>
+        <div class="company-description">
+          <h1>
+            Welcome to <br />
+            The Bat Cave:
+          </h1>
+          <p>Your One-Stop Shop for All Things Cool!</p>
+        </div>
+      </div>
+    </section>
+    <article id="products-section">
+      <spline-viewer
+        url="https://prod.spline.design/sHjqbfJ0T3gSv53g/scene.splinecode"
+      ></spline-viewer>
+      <div class="products-section__descr">
+        <h1 class="products-section__descr-title">
+          Welcome to Bat Cave, the ultimate online shop for all things cool and
+          unique! At Bat Cave, we believe in celebrating individuality and style
+          with a handpicked selection of products that stand out from the
+          ordinary. Whether you're looking for quirky gadgets, trendy apparel,
+          or one-of-a-kind accessories, we have something special just for you.
+        </h1>
+      </div>
+    </article>
+    <footer id="footer">
+      <div class="footer-container">
+        <h1>Dare to Be Different</h1>
+        <img src="assets/images/bat.png" class="logo-img" />
+      </div>
+    </footer>
+    <script src="/assets/js/preload.js"></script>
+  </body>
+</html>
